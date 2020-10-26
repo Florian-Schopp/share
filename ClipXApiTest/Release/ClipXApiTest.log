@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+C:\Users\Siepmann\OneDrive - Spectris - Test and Measurement\Desktop\Treiber\API\CLIPX_ClipXApi\ClipXApiTest\unittest1.cpp(108,21): warning C4473: "sprintf_s": nicht genügend Argumente für Formatzeichenfolge übergeben
+C:\Users\Siepmann\OneDrive - Spectris - Test and Measurement\Desktop\Treiber\API\CLIPX_ClipXApi\ClipXApiTest\unittest1.cpp(108,21): message : Platzhalter und deren Parameter erwarten 9 variadic-Argumente, es wurden aber 7 variadic-Argumente bereitgestellt.
+C:\Users\Siepmann\OneDrive - Spectris - Test and Measurement\Desktop\Treiber\API\CLIPX_ClipXApi\ClipXApiTest\unittest1.cpp(108,21): message : Das fehlende variadic-Argument "8" ist für die Zeichenfolge "%d" erforderlich.
+LINK : warning LNK4075: /INCREMENTAL wird aufgrund der Angabe von /LTCG ignoriert.
+LINK : fatal error LNK1181: Eingabedatei "ClipXApi.lib" kann nicht geöffnet werden.

@@ -1,0 +1,74 @@
+﻿  stdafx.cpp
+  ClipX.cpp
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(55,1): warning C4273:  "ClipX::ClipX": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(28,2): message :  Siehe vorherige Definition von "{ctor}"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(69,31): warning C4273:  "ClipX::GetOverFlowFlag": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(38,17): message :  Siehe vorherige Definition von "GetOverFlowFlag"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(73,61): warning C4273:  "CLIPX_GetSignalTypeByID": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(16,16): message :  Siehe vorherige Definition von "CLIPX_GetSignalTypeByID"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(88,41): warning C4273:  "CLIPX_GetSignalIDByType": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(17,16): message :  Siehe vorherige Definition von "CLIPX_GetSignalIDByType"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(99,65): warning C4273:  "CLIPX_GetTransducerTypeByID": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(18,16): message :  Siehe vorherige Definition von "CLIPX_GetTransducerTypeByID"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(114,27): warning C4273:  "ClipX::ClearBuffer": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(40,17): message :  Siehe vorherige Definition von "ClearBuffer"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(119,1): warning C4273:  "ClipX::SDORead": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(31,16): message :  Siehe vorherige Definition von "SDORead"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(124,32): warning C4267:  "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(132,1): warning C4273:  "ClipX::SDOWrite": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(32,16): message :  Siehe vorherige Definition von "SDOWrite"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(138,32): warning C4267:  "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(147,31): warning C4273:  "ClipX::startMeasurement": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(33,16): message :  Siehe vorherige Definition von "startMeasurement"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(161,32): warning C4267:  "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(174,25): warning C4244:  "=": Konvertierung von "time_t" in "unsigned long", möglicher Datenverlust
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(192,5): warning C4267:  "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(223,29): warning C4273:  "ClipX::AvailableLines": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(34,16): message :  Siehe vorherige Definition von "AvailableLines"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(230,1): warning C4273:  "ClipX::ReadNextLine": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(35,16): message :  Siehe vorherige Definition von "ReadNextLine"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(245,7): warning C4101:  "buf": Unreferenzierte lokale Variable
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(251,150): warning C4273:  "ClipX::ReadNextBlock": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(36,16): message :  Siehe vorherige Definition von "ReadNextBlock"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(277,30): warning C4273:  "ClipX::stopMeasurement": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(37,16): message :  Siehe vorherige Definition von "stopMeasurement"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(288,24): warning C4273:  "ClipX::KeepAlive": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(45,16): message :  Siehe vorherige Definition von "KeepAlive"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(297,27): warning C4273:  "ClipX::isConnected": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(39,17): message :  Siehe vorherige Definition von "isConnected"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(302,1): warning C4273:  "ClipX::Connect": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(29,16): message :  Siehe vorherige Definition von "Connect"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(312,25): warning C4244:  "=": Konvertierung von "SOCKET" in "int", möglicher Datenverlust
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(338,1): warning C4273:  "ClipX::Disconnect": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(30,16): message :  Siehe vorherige Definition von "Disconnect"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(348,1): warning C4273:  "ClipX::~ClipX": Inkonsistente DLL-Bindung.
+  ClipX_Interface.cpp
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.h(41,13): message :  Siehe vorherige Definition von "{dtor}"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(10,1): warning C4273:  "ClipX_Connect": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(20,30): message :  Siehe vorherige Definition von "ClipX_Connect"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(22,1): warning C4273:  "ClipX_Disconnect": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(28,27): message :  Siehe vorherige Definition von "ClipX_Disconnect"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(33,1): warning C4273:  "ClipX_SDORead": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(21,27): message :  Siehe vorherige Definition von "ClipX_SDORead"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(44,1): warning C4273:  "ClipX_SDOWrite": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(22,27): message :  Siehe vorherige Definition von "ClipX_SDOWrite"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(54,45): warning C4273:  "ClipX_isConnected": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(29,27): message :  Siehe vorherige Definition von "ClipX_isConnected"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(62,1): warning C4273:  "ClipX_startMeasurement": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(23,26): message :  Siehe vorherige Definition von "ClipX_startMeasurement"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(73,1): warning C4273:  "ClipX_stopMeasurement": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(27,26): message :  Siehe vorherige Definition von "ClipX_stopMeasurement"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(84,1): warning C4273:  "ClipX_AvailableLines": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(24,26): message :  Siehe vorherige Definition von "ClipX_AvailableLines"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(94,61): warning C4273:  "ClipX_ReadNextLine": Inkonsistente DLL-Bindung.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(25,26): message :  Siehe vorherige Definition von "ClipX_ReadNextLine"
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.cpp(104,170): warning C4273:  "ClipX_ReadNextBlock": Inkonsistente DLL-Bindung.
+  dllmain.cpp
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX_Interface.h(26,26): message :  Siehe vorherige Definition von "ClipX_ReadNextBlock"
+     Bibliothek "C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\x64\Release\ClipXApi.lib" und Objekt "C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\x64\Release\ClipXApi.exp" werden erstellt.
+  Code wird generiert.
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\ClipX\ClipX.cpp(97): warning C4715: "CLIPX_GetSignalIDByType": Nicht alle Codepfade geben einen Wert zurück.
+  All 164 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Codegenerierung ist abgeschlossen.
+  ClipX.vcxproj -> C:\Users\Siepmann\Desktop\Treiber\API\CLIPX_ClipXApi\x64\Release\ClipXApi.dll

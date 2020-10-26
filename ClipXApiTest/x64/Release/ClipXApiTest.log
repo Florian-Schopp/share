@@ -1,0 +1,15 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+c:\users\schopp\data\programs\hbm\visual studio\clipx_clipxapi\clipxapitest\unittest1.cpp(106): warning C4473: "sprintf_s": nicht genügend Argumente für Formatzeichenfolge übergeben
+  c:\users\schopp\data\programs\hbm\visual studio\clipx_clipxapi\clipxapitest\unittest1.cpp(106): note: Platzhalter und deren Parameter erwarten 9 variadic-Argumente, es wurden aber 7 variadic-Argumente bereitgestellt.
+  c:\users\schopp\data\programs\hbm\visual studio\clipx_clipxapi\clipxapitest\unittest1.cpp(106): note: Das fehlende variadic-Argument "8" ist für die Zeichenfolge "%d" erforderlich.
+LINK : warning LNK4075: /INCREMENTAL wird aufgrund der Angabe von /LTCG ignoriert.
+     Bibliothek "C:\Users\Schopp\Data\Programs\HBM\Visual Studio\CLIPX_ClipXApi\x64\Release\ClipXApiTest.lib" und Objekt "C:\Users\Schopp\Data\Programs\HBM\Visual Studio\CLIPX_ClipXApi\x64\Release\ClipXApiTest.exp" werden erstellt.
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_ClipX_Connect".
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_ClipX_SDOWrite".
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_ClipX_SDORead".
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_ClipX_Disconnect".
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_CLIPX_GetSignalTypeByID".
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_CLIPX_GetSignalIDByType".
+unittest1.obj : error LNK2001: Nicht aufgelöstes externes Symbol "__imp_CLIPX_GetTransducerTypeByID".
+C:\Users\Schopp\Data\Programs\HBM\Visual Studio\CLIPX_ClipXApi\x64\Release\ClipXApiTest.dll : fatal error LNK1120: 7 nicht aufgelöste Externe
