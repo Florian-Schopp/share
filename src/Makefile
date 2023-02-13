@@ -5,10 +5,10 @@ else
 endif
 
 ifeq ($(uname_S), Windows)
-	target = lib/libfoo.dll
+	target = lib/libclipx.dll
 endif
 ifeq ($(uname_S), Linux)
-	target = lib/libfoo.so
+	target = lib/libclipx.so
 endif
 
 all:

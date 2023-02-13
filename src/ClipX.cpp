@@ -130,7 +130,6 @@ int ClipX::SDORead(int idx, int subidx, char *res, int size)
 {
 	if (!connected)
 		return -1;
-	std::cout << "Preparing request" << std::endl;
 	char req[100];
 	sprintf_s(req, "SDO? %d,%d \r\n", idx, subidx);
 	g_socket_mutex.lock();
