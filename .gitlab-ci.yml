@@ -8,4 +8,5 @@ build:
     - docker
   script:
     - make
+    - export LD_LIBRARY_PATH=${PWD}/src/lib
     - ./examples/test
