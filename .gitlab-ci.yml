@@ -1,7 +1,7 @@
 stages:
   - build
 
-build:
+build_linux:
   image: gcc:9.5
   stage: build
   tags:
@@ -10,3 +10,13 @@ build:
     - make
     - export LD_LIBRARY_PATH=${PWD}/src/lib
     - ./examples/test
+
+.build_win:
+  stage: build
+  image: gitlab.hbkworld.com:5555/docker/w64sdk:v3
+  script:
+    - cd qemu-4.2.0 && mkdir build && cd build
+    - ../configure --cross-prefix=x86_64-w64-mingw32- --target-list="arm-softmmu aarch64-softmmu"
+
+  tags:
+    - docker

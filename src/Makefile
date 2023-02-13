@@ -16,6 +16,7 @@ all:
 	mkdir lib
 	gcc -c -Wall -Werror -fpic ClipxApi.cpp ClipX.cpp 
 	gcc -shared -o $(target) ClipxApi.o ClipX.o
+	cp ClipxApi.h ClipX.hpp lib
 	rm *.o
 
 

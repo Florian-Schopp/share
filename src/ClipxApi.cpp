@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "ClipxApi.h"
-#include "ClipX.h"
+#include "ClipX.hpp"
 
 sClipX *ClipX_Connect(const char *IP)
 {

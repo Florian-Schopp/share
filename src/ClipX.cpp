@@ -1,4 +1,4 @@
-#include "ClipX.h"
+#include "ClipX.hpp"
 #include <time.h>
 #include <stdio.h>
 #include <chrono>
@@ -7,7 +7,6 @@
 #include <fstream>
 #include "Types.h"
 #include "Structs.h"
-#include <iostream>
 #ifdef _WIN32
 #include <winsock2.h>
 #include <ws2tcpip.h>
@@ -39,13 +38,9 @@ char *strcpy_s(char *dest, size_t n, const char *src)
 }
 #endif
 
-using namespace std;
-
 std::mutex g_buffer_mutex;
 std::mutex g_socket_mutex;
-
 std::thread MeasureThread, keepAliveThread;
-// std::ofstream fifoLog;
 
 ClipX::ClipX()
 {
@@ -72,21 +67,13 @@ bool ClipX::GetOverFlowFlag()
 int CLIPX_GetSignalTypeByID(int ID, char *data, int length)
 {
 	if ((ID < 2) || (ID > 31))
-	{
 		return -1;
-	}
-	else
-	{
-		if ((size_t)length < strlen(signalNames[ID]))
-		{
-			return -2;
-		}
-		else
-		{
-			strcpy_s(data, 40, signalNames[ID]);
-			return 0;
-		}
-	}
+
+	if ((size_t)length < strlen(signalNames[ID]))
+		return -2;
+
+	strcpy_s(data, 40, signalNames[ID]);
+	return 0;
 }
 
 int CLIPX_GetSignalIDByType(char *type)
@@ -94,9 +81,7 @@ int CLIPX_GetSignalIDByType(char *type)
 	for (int i = 2; i < 32; i++)
 	{
 		if (strncmp(type, signalNames[i], strlen(type)) == 0)
-		{
 			return i;
-		}
 	}
 	return -1;
 }
@@ -104,21 +89,13 @@ int CLIPX_GetSignalIDByType(char *type)
 int CLIPX_GetTransducerTypeByID(int ID, char *data, int length)
 {
 	if ((ID < 0) || (ID > 14))
-	{
 		return -1;
-	}
-	else
-	{
-		if ((size_t)length < strlen(transducerTypes[ID]))
-		{
-			return -2;
-		}
-		else
-		{
-			strcpy_s(data, 40, transducerTypes[ID]);
-			return 0;
-		}
-	}
+
+	if ((size_t)length < strlen(transducerTypes[ID]))
+		return -2;
+
+	strcpy_s(data, 40, transducerTypes[ID]);
+	return 0;
 }
 
 void ClipX::ClearBuffer()
@@ -265,9 +242,6 @@ int ClipX::ReadNextLine(double *MVLine)
 	MVLine[4] = resultLine.value4;
 	MVLine[5] = resultLine.value5;
 	MVLine[6] = resultLine.value6;
-	// char buf[2048];
-	// sprintf_s(buf, "%f;  %i ; %i ; %i ; %f; %f; %f; %f; %f; %f; %f", t, readptr, writeptr, (int)(Header.res.dataBytes / 28),MVLine[0], MVLine[1], MVLine[2], MVLine[3], MVLine[4], MVLine[5], MVLine[6]);
-	// fifoLog << buf << std::endl;
 	return AvailableLines();
 }
 
@@ -337,7 +311,6 @@ bool ClipX::isConnected()
 
 const int ClipX::Connect(const char *IpAddr)
 {
-	std::cout << "Connecting" << std::endl;
 	struct sockaddr_in server;
 
 #ifdef _WIN32

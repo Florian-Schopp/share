@@ -12,6 +12,6 @@ ifeq ($(uname_S), Linux)
 endif
 
 all:
-	g++ -L../src/lib -Wall -o test main.cpp -lclipx -pthread
+	g++ -L../src/lib -Wall -o test cpp_example.cpp -lclipx -pthread
 
 
