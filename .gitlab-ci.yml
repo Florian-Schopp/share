@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build:
+  image: gcc:9.5
+  stage: build
+  tags:
+    - docker
+  script:
+    - make
+    - ./examples/test
